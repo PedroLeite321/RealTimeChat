@@ -6,13 +6,13 @@ const Login = () => {
         <header>
             <h1 className="text-5xl mb-16 font-extrabold text-white">Login</h1>  
         </header>
-        <div className="md:flex flex-col bg-slate-100 w-80 h-60 rounded-xl ;">
-            <header className="md:flex justify-center items-center m-5">
+        <div className="md:flex flex-col bg-slate-100 w-80 h-60 rounded-xl  items-center ;">
+            <header className="md:flex mt-5">
                 <h2 className=" font-bold font text-xl">Login Here</h2>
             </header>
-            <div className="md:flex flex-col h-full w-full items-center justify-start item mb-300 content-center">
-                <input type="text" placeholder="email" className="w-56 rounded-lg indent-5 mb-8 border-solid outline outline-offset-2 outline-1 focus:font-semibold"/>
-                <input type="text" placeholder="password" className="w-56 indent-5 rounded-lg outline outline-offset-2 outline-1 
+            <div className="md:flex flex-col h-full w-full items-center">
+                <input type="text" placeholder="email" className="w-56 mt-8 rounded-lg indent-5 mb-8 border-solid outline outline-offset-2 outline-1 focus:font-semibold"/>
+                <input type="text" placeholder="password" className="w-56 indent-5  rounded-lg outline outline-offset-2 outline-1 
                 focus:font-semibold"/>
             </div>
         </div>
